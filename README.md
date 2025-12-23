@@ -69,7 +69,7 @@ Este é um **plugin educacional** desenvolvido para servir como **ponto de parti
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/clan-system.git
+git clone https://github.com/MarcosFG-Dev/clan-system.git
 cd clan-system
 ```
 
@@ -260,5 +260,6 @@ Encontrou um bug? Tem uma sugestão?
 Made with 💜 for the Minecraft dev community
 
 </div>
+
 
 
