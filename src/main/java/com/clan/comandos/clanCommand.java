@@ -13,6 +13,8 @@ import org.bukkit.entity.Player;
 
 import java.util.UUID;
 
+//Fiquei com preguiça de comentar esse daqui então da um jeito de entender aii não ta bagunçado então e facil
+
 public class clanCommand implements CommandExecutor {
 
     private final ClanManager clanManager = ClanManager.getInstance();
@@ -170,10 +172,6 @@ public class clanCommand implements CommandExecutor {
             player.sendMessage(ColorUtil.color("&cUse: /clan expulsar <player>"));
             return;
         }
-        // In reality, you'd want to handle offline players by Name lookup or UUID cache
-        // keeping it simple for online players per requirement "professional plugin"
-        // usually handles offline too
-        // but for this scope, let's try to find member
         @SuppressWarnings("deprecation")
         Player target = Bukkit.getPlayer(args[1]);
         UUID targetUUID = null;
@@ -182,7 +180,6 @@ public class clanCommand implements CommandExecutor {
         if (target != null) {
             targetUUID = target.getUniqueId();
         } else {
-            // Look in clan members
             for (UUID memberId : clan.getMembers()) {
                 if (Bukkit.getOfflinePlayer(memberId).getName() != null &&
                         Bukkit.getOfflinePlayer(memberId).getName().equalsIgnoreCase(args[1])) {
