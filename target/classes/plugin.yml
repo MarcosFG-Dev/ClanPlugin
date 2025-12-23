@@ -1,0 +1,23 @@
+name: Clan
+version: 1.0.0
+main: com.clan.Clan
+author: Pedro
+description: Sistema completo de Clans com GUI avançada, guerras e gerenciamento de membros
+api-version: 1.13
+
+commands:
+  clan:
+    description: Comando principal do sistema de clans
+    usage: /<command> [criar|convidar|aceitar|sair|expulsar|ff|guerra|aceitar_guerra|info|remover]
+    aliases: [c, clans]
+
+permissions:
+  clan.use:
+    description: Permite usar comandos básicos de clan
+    default: true
+  clan.create:
+    description: Permite criar um clan
+    default: true
+  clan.admin:
+    description: Acesso administrativo ao sistema de clans
+    default: op

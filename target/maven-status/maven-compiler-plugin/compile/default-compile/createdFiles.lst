@@ -1,0 +1,10 @@
+com\clan\managers\ClanManager.class
+com\clan\gui\ClanGUI.class
+com\clan\listeners\ClanPlayerListener.class
+com\clan\comandos\clanCommand.class
+com\clan\model\ClanData.class
+com\clan\listeners\ClanInventoryListener.class
+com\clan\utils\ColorUtil.class
+com\clan\Clan.class
+com\clan\model\ClanWar.class
+com\clan\utils\MessageManager.class

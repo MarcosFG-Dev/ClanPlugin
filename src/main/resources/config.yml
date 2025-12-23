@@ -1,0 +1,63 @@
+# ========================================
+# Configuração do Sistema de Clans
+# ========================================
+# Use & para cores ao invés de §
+# Códigos de cor: &0-9, &a-f, &l (negrito), &o (itálico), &n (sublinhado), &r (reset)
+
+# Configurações Gerais
+settings:
+  # Tamanho máximo da tag do clan (caracteres)
+  max-tag-length: 5
+  
+  # Tamanho máximo do nome do clan (caracteres)
+  max-name-length: 20
+  
+  # Número máximo de membros por clan
+  max-members: 50
+  
+  # Custo para criar um clan (requer Vault)
+  creation-cost: 0
+  
+  # Fogo amigo ativado por padrão ao criar clan
+  default-friendly-fire: false
+
+# Sistema de Guerras
+wars:
+  # Duração padrão das guerras (em minutos)
+  default-duration: 10
+  
+  # Tempo de expiração do convite de guerra (em segundos)
+  invite-timeout: 60
+  
+  # Anunciar início e fim de guerras globalmente
+  broadcast-wars: true
+
+# Sistema de Convites
+invites:
+  # Tempo de expiração dos convites (em segundos)
+  expire-time: 60
+
+# Mensagens (personalizáveis) - Use & para cores
+messages:
+  prefix: '&8[&6Clan&8]&r '
+  
+  # Mensagens de sucesso
+  clan-created: '&aClan criado com sucesso!'
+  clan-deleted: '&cClan deletado.'
+  player-invited: '&aConvite enviado!'
+  player-joined: '&a{player} entrou no clan!'
+  player-left: '&c{player} saiu do clan.'
+  
+  # Mensagens de guerra
+  war-started: '&c&l[GUERRA]&r &eA guerra começou!'
+  war-ended: '&e&l[GUERRA]&r &fA guerra terminou!'
+  war-request: '&e{clan} declarou guerra! Use &f/clan aceitar_guerra {tag}'
+  
+  # Mensagens de erro
+  no-permission: '&cVocê não tem permissão!'
+  player-only: '&cApenas jogadores podem usar este comando.'
+  already-in-clan: '&cVocê já possui um clan.'
+  not-in-clan: '&cVocê não está em um clan.'
+  clan-not-found: '&cClan não encontrado.'
+  tag-too-long: '&cTag muito longa (máximo {max} caracteres).'
+  tag-exists: '&cEssa tag já existe.'
