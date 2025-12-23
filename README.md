@@ -228,13 +228,6 @@ Contribuições são **super bem-vindas**! Este é um projeto educacional, entã
 - [ ] API para outros plugins
 - [ ] Suporte multi-idioma
 
----
-
-## 📝 Licença
-
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
 
 ## 👨‍💻 Autor
 
@@ -267,4 +260,5 @@ Encontrou um bug? Tem uma sugestão?
 Made with 💜 for the Minecraft dev community
 
 </div>
+
 
