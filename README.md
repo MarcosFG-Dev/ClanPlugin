@@ -145,7 +145,7 @@ src/main/java/com/clan/
 
 ### 💬 Comentários Divertidos
 
-Este projeto tem comentários **humanizados e zoeiros** para tornar o aprendizado mais divertido:
+Este projeto tem comentários meio duvidosos mas do meu jeitinho ta facil de entender:
 
 ```java
 // Toggle de fogo amigo - a estrela do show caralho
@@ -238,7 +238,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ e muito ☕ por **Pedro**
+Desenvolvido com ❤️ e muito ☕ por **Marcos**
 
 ---
 
@@ -267,3 +267,4 @@ Encontrou um bug? Tem uma sugestão?
 Made with 💜 for the Minecraft dev community
 
 </div>
+
