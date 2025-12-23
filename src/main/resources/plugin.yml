@@ -1,7 +1,7 @@
 name: Clan
 version: 1.0.0
 main: com.clan.Clan
-author: Pedro
+author: Marcos
 description: Sistema completo de Clans com GUI avançada, guerras e gerenciamento de membros
 api-version: 1.13
 
